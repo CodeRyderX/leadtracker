@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(curl -s http://localhost:5173/src/App.jsx)",
+      "Bash(curl -s \"http://localhost:5173/@vite/client\")",
+      "Bash(curl -s \"http://localhost:5173/src/components/board/Board.jsx\")",
+      "Bash(curl -s \"http://localhost:5173/node_modules/.vite/deps/@dnd-kit_core.js?v=cf8ad66d\")",
+      "Bash(curl -s \"http://localhost:5173/src/hooks/useLeads.js\")"
+    ]
+  }
+}

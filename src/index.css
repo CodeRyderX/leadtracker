@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply font-sans bg-surface-50 dark:bg-dark-0 text-surface-700 dark:text-dark-700 min-h-screen;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-surface-300 dark:bg-dark-300 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-surface-600 dark:bg-dark-600;
+  }
+}
+
+@layer utilities {
+  .transition-standard {
+    transition-duration: 150ms;
+    transition-timing-function: ease;
+  }
+
+  .transition-modal {
+    transition-duration: 200ms;
+    transition-timing-function: ease;
+  }
+}

@@ -7,17 +7,16 @@ A Kanban-style CRM dashboard built for freelancers to track leads and client pro
 ## Screenshots
 
 ### Dark Theme
-![LeadTracker Dark Theme](screenshots/leadtracker-dark-theme-board.png)
+![LeadTracker Dark Theme](screenshots/leadtracker%20dark%20theme%20board.png)
 
 ### Light Theme
-![LeadTracker Light Theme](screenshots/leadtracker-light-theme-board.png)
+![LeadTracker Light Theme](screenshots/leadtracker%20light%20theme%20board.png)
 
 ### Add New Lead
-![New Lead Modal](screenshots/new-lead-modal-open.png)
+![New Lead Modal](screenshots/new%20lead%20modal%20open.png)
 
 ### Edit Lead
-![Edit Lead Modal](screenshots/edit-lead-modal-open.png)
-
+![Edit Lead Modal](screenshots/edit%20lead%20modal%20open.png)
 ---
 
 ## Features
